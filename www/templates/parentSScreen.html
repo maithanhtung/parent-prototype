@@ -1,0 +1,27 @@
+<ion-view title="Parent's screen" hide-nav-bar="true" id="page3">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div id="parentSScreen-button-bar2" class="button-bar">
+      <button id="parentSScreen-button15" class="button button-dark button-large button-block button-outline icon ion-home"></button>
+      <a ui-sref="submittask" id="parentSScreen-button16" class="button button-dark  button-block button-outline icon ion-android-bicycle"></a>
+      <a ui-sref="allTasks" id="parentSScreen-button17" class="button button-dark  button-block button-outline icon ion-ios-list"></a>
+    </div>
+    <ion-slides disable-side-menu-drag="" options="{'loop': true}" slider="slider2" delegate-handle="slider2" id="parentSScreen-slider2" style="width:100%;height:200px;">
+      <ion-slide-page id="parentSScreen-slide28" style="background:url(&quot;img/KLUQxEJIRHS3NH5fGnHE_construction-of-pie-chart.jpg&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+      <ion-slide-page id="parentSScreen-slide29" style="background:url(&quot;img/9rk6lGNMTbCvm8ax547p_All-data-in-bar-chart.png&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+      <ion-slide-page id="parentSScreen-slide27" style="background:url(&quot;img/CQCOKcoFTfGdTE2YliBV_chart_11.png&quot;) no-repeat center;background-size:cover;"></ion-slide-page>
+    </ion-slides>
+    <br>
+    <form id="parentSScreen-form1" class="list">
+      <h2 id="parentSScreen-heading3" style="color:#000000;text-align:center;">Task you want to add</h2>
+      <label class="item item-input" id="parentSScreen-input1">
+        <span class="input-label" style="font-weight: 600">Title :</span>
+        <input type="text" placeholder="">
+      </label>
+      <label class="item item-input" id="parentSScreen-input2">
+        <span class="input-label" style="font-weight: 600">Earning time</span>
+        <input type="time" placeholder="">
+      </label>
+      <a ui-sref="submittask" id="parentSScreen-button7" style="font-weight:600;font-size:20px;" class="button button-positive  button-block">Add</a>
+    </form>
+  </ion-content>
+</ion-view>
