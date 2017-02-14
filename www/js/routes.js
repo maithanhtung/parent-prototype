@@ -23,7 +23,7 @@ angular.module('app.routes', [])
       
         
     .state('submittask', {
-      url: '/page2',
+      url: '/page4',
       templateUrl: 'templates/submittask.html'
     })
         
@@ -32,11 +32,18 @@ angular.module('app.routes', [])
       
         
     .state('allTasks', {
-      url: '/page3',
+      url: '/page5',
       templateUrl: 'templates/allTasks.html'
     })
         
-      
+    
+
+
+    .state('rewards', {
+      url: '/page6',
+      templateUrl: 'templates/rewards.html'
+    })
+
     ;
 
   // if none of the above states are matched, use this as the fallback
